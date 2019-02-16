@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,700">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>WebGL Particle Flame</title>
+</head>
+<body>
+	<div id="content">
+		<div id="title" onclick="isInFullscreen?closeFullscreen():openFullscreen()">
+			<div><b>WebGL</b> Particle Flame</div>
+		</div>
+		<canvas id="renderer"></canvas>
+		<div id="frame"></div>
+		<div id="guide">
+			<div>
+				<span>GPGPU Particle flame. Achieved via Three.js</span>
+				<span>GPGPU Particle flame. Achieved via Three.js</span>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/libs/three.min.js" charset="utf-8"></script>
+	<script src="js/libs/GPUComputationRenderer.js" charset="utf-8"></script>
+	<script src="js/libs/OBJLoader.js" charset="utf-8"></script>
+	<script src="js/libs/OrbitControls.js" charset="utf-8"></script>
+	<script src="js/libs/stats.min.js" charset="utf-8"></script>
+	<script src="js/libs/dat.gui.min.js" charset="utf-8"></script>
+
+	<script id="gpuComputeOffset" src="shaders/gpuComputeOffset.glsl" type="x-shader/x-fragment" charset="utf-8"></script>
+	<script id="gpuComputeDirection" src="shaders/gpuComputeDirection.glsl" type="x-shader/x-fragment" charset="utf-8"></script>
+
+	<script id="vertexShader" src="shaders/vertexShader.glsl" type="x-shader/x-vertex" charset="utf-8"></script>
+	<script id="fragmentShader" src="shaders/fragmentShader.glsl" type="x-shader/x-fragment" charset="utf-8"></script>
+
+	<script src="https://g7495x.gitlab.io/g7495x-signature-three.js/g7495x.js" charset="utf-8"></script>
+	<script charset="utf-8">g7495x('Demo by')</script>
+
+	<script src="js/common.js" charset="utf-8"></script>
+	<script src="js/init.js" charset="utf-8"></script>
+	<script src="js/graphics.js" charset="utf-8"></script>
+	<script src="js/main.js" charset="utf-8"></script>
+</body>
+</html>
