@@ -31,7 +31,7 @@ windZ          =1*getUrlParam('windZ')
 
 // Compile time parameters
 gpgpuTexWidth   ||(gpgpuTexWidth    =1024  )
-spherePointCount||(spherePointCount =1024*2)
+spherePointCount||(spherePointCount =1024*3)
 particleLifetime||(particleLifetime =2     ) // Sec
 emitFrequency   ||(emitFrequency    =2.5   ) // Emits per sec
 

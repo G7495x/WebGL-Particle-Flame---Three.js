@@ -9,11 +9,15 @@ Highlights:
 - Fully GPU Optimized
 - Fully Customizable via URL Params
 
-Demo - [g7495x.gitlab.io/webgl-particle-flame-three.js](https://g7495x.gitlab.io/webgl-particle-flame-three.js/)
+Demo - [g7495x.github.io/WebGL-Particle-Flame---Three.js/src](https://g7495x.github.io/WebGL-Particle-Flame---Three.js/src/)
 
-Demo with Controls - [g7495x.gitlab.io/webgl-particle-flame-three.js/?showControls=true](https://g7495x.gitlab.io/webgl-particle-flame-three.js/?showControls=true)
+Demo with Controls - [g7495x.github.io/WebGL-Particle-Flame---Three.js/src/?showControls=true](https://g7495x.github.io/WebGL-Particle-Flame---Three.js/src/?showControls=true)
 
-HQ Blue - [g7495x.gitlab.io/webgl-particle-flame-three.js/?spherePointCount=3072&color=blue&emitFrequency=2](https://g7495x.gitlab.io/webgl-particle-flame-three.js/?spherePointCount=3072&color=blue&emitFrequency=2)
+Blue Flame - [g7495x.github.io/WebGL-Particle-Flame---Three.js/src/?spherePointCount=3072&color=blue&emitFrequency=2](https://g7495x.github.io/WebGL-Particle-Flame---Three.js/src/?spherePointCount=3072&color=blue&emitFrequency=2)
+
+HQ Flame - [g7495x.github.io/WebGL-Particle-Flame---Three.js/src/?spherePointCount=5120&particleOpacity=.75](https://g7495x.github.io/WebGL-Particle-Flame---Three.js/src/?spherePointCount=5120&particleOpacity=.75)
+
+HQ Blue Flame - [g7495x.github.io/WebGL-Particle-Flame---Three.js/src/?spherePointCount=5120&color=blue&particleOpacity=.75](https://g7495x.github.io/WebGL-Particle-Flame---Three.js/src/?spherePointCount=5120&color=blue&particleOpacity=.75)
 
 To run: `npm start`
 

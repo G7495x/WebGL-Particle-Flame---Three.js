@@ -43,12 +43,8 @@ body {
   font-size: 32px;
   color: rgba(220, 222, 226, 0.75);
   transition: transform 2s; }
-  #title + #renderer {
-    filter: blur(25px) saturate(2.5); }
   #title.side {
     transform: rotate(90deg) scale(0.5) translate(calc(-50% + 162.5px), calc(-50% + 20px)); }
-    #title.side + #renderer {
-      filter: initial; }
 
 #renderer {
   top: 0;

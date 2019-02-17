@@ -51,10 +51,10 @@ body{
 	font-size: 32px;
 	color: hsla(220,10%,87.5%,.75);
 	transition: transform 2s;
-	+#renderer{ filter: blur(25px) saturate(2.5) }
+	// +#renderer{ filter: blur(25px) }
 	&.side{
 		transform: rotate(90deg) scale($shrink) translate(calc(-50% + #{$width*$shrink}),calc(-50% + #{$height*$shrink}));
-		+#renderer{ filter: initial }
+		// +#renderer{ filter: initial }
 	}
 }
 #renderer{
