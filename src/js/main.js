@@ -1,14 +1,18 @@
+// TODO
+// Offline Fonts
+// Online Common.js
+
 if(getUrlParam('showControls')) setupGui()
 
-// let stats=new Stats()
-// stats.showPanel(0)
+let stats=new Stats()
+stats.showPanel(0)
 // document.body.appendChild(stats.dom)
 
 const animate=()=>{
-	// stats.begin()
+	stats.begin()
 	graphicsUpdate()
 	requestAnimationFrame(animate)
-	// stats.end()
+	stats.end()
 }
 animate()
 setTimeout(()=>document.getElementById('title').classList.add('side'),1000)

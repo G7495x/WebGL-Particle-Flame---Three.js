@@ -1,6 +1,7 @@
 # WebGL Particle Flame - Three.js
 
-GPGPU Particle flame using Curl over Value Noise. Achieved via Three.js in WebGL.
+GPGPU Particle flame using Curl over Value Noise.
+Achieved via Three.js in WebGL.
 
 Highlights:
 - GPGPU via GPUComputationRenderer.js
